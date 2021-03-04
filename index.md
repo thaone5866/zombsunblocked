@@ -1,1183 +1,330 @@
 
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Free Online Games | Gameflare.com</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="HandheldFriendly" content="true">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui, shrink-to-fit=no">
-<meta name="apple-mobile-web-app-title" content="Gameflare.com">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="csrf-token" content="MOIZdo0T7iLjpwRXrulFfaWaAq7n5QwQRkYCHm2q">
-<link rel="shortcut icon" href="https://www.gameflare.com/images/favicon-en.ico">
-<link rel="icon" href="https://www.gameflare.com/images/small-icon-en.png">
-<link rel="apple-touch-icon" href="https://www.gameflare.com/images/small-icon-en.png">
-<link rel="canonical" href="https://www.gameflare.com/online-game/zombsio/">
-<meta name="game-js-vars" data-allowed-domains='["www.zahraj.sk","zahraj.sk","www.zahraj.cz","zahraj.cz","www.gameflare.com","gameflare.com","www.cooljuegos.com","cooljuegos.com","www.megaigry.ru","megaigry.ru"]' data-game-info='{"embedUrl":"http:\/\/www.gameflare.com\/embed\/zombsio\/","gameUrl":"https:\/\/www.gameflare.com\/online-game\/zombsio\/","isDead":false,"hasEmbed":true,"platform":"HTML5","name":"Zombs.io","nameWithSlashes":"Zombs.io","image":{"src":"https:\/\/data.gameflare.com\/games\/7791\/0eMOT4gpWySpGL-400-300.jpg","alt":"Zombs.io online game"},"width":1000,"height":635,"chromeBlockUrl":"https:\/\/www.gameflare.com\/gameload-block-npapi\/chrome\/","edgeBlockUrl":"https:\/\/www.gameflare.com\/gameload-block-npapi\/edge\/","operaBlockUrl":"https:\/\/www.gameflare.com\/gameload-block-npapi\/opera\/","miniBlockUrl":"https:\/\/www.gameflare.com\/gameload-block-npapi\/mini\/","translations":{"embedIsNotAllowed":"Embed is not allowed for this game.","youCanPlayTheGameAt":"You can play the game at","gameflare":"Gameflare.com","play":"PLAY"}}'>
-<link rel="stylesheet" href="https://www.gameflare.com/css/gameflare-asdk.min.css?id=0bcc206a48dccd2eceb3">
-<link rel="stylesheet" href="https://www.gameflare.com/css/embed.min.css?id=9de3264364bfffd28431">
-<script src="https://www.gameflare.com/js/jquery.min.js?id=23c7c5d2d1317508e807"></script>
-</head>
-<body class="embed-desktop-show sidebar-modal-hide">
-<nav class="sidebar-menu">
-<ul role="tablist">
-<li role="presentation" class="active">
-<a href="#controls" role="tab" data-toggle="tab">
-<i class="fas fa-gamepad"></i>
-<span>Controls</span>
-</a>
-</li>
-<li role="presentation">
-<a href="#share" role="tab" data-toggle="tab">
-<i class="far fa-share-alt"></i>
-<span>Share</span>
-</a>
-</li>
-<li role="presentation">
-<a href="#games" role="tab" data-toggle="tab">
-<i class="fas fa-ellipsis-h"></i>
-<span>Games</span>
-</a>
-</li>
-</ul>
-</nav>
-<div class="sidebar-content">
-<div class="sidebar-content-list tab-content">
-<a href="#" class="sidebar-modal-close">
-<i class="fas fa-times"></i>
-</a>
-<div role="tabpanel" class="tab-pane active" id="controls">
-<div class="sidebar-controls">
-<h1 class="page-header">
-Zombs.io
-</h1>
-<p>
-Zombs.io is an online multiplayer game where you&#039;ll have to come up with a solid strategy.
-</p>
-<h2>Controls:</h2>
-<div class="game-controls">
-<ul class="center">
-<li>
-<span class="kb-wasd text-center">
-<span class="type kb-generic-key">
-<span class="key key-e">W</span>
-</span><br>
-<span class="type kb-generic-key">
-<span class="key key-e">A</span>
-</span>
-<span class="type kb-generic-key">
-<span class="key key-e">S</span>
-</span>
-<span class="type kb-generic-key">
-<span class="key key-e">D</span>
-</span>
-</span>
-<span class="action">movement</span>
-</li>
-<li>
-<span class="type mouse-click">
-<span class="sr-only">Mouse</span>
-</span>
-<span class="action">attack</span>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div role="tabpanel" class="tab-pane" id="share">
-<div class="sidebar-share">
-<div class="game-share">
-<h2>Share on:</h2>
-<div class="icons">
-<span data-placement="bottom" data-tooltip="tooltip" title="Share on Facebook.com" onclick="window.open('https://www.facebook.com/sharer.php?u=https://www.gameflare.com/online-game/zombsio/', '_blank', 'width=655,height=455'); return false"><i class="fab fa-facebook-square"></i></span>
-<span data-placement="bottom" data-tooltip="tooltip" title="Share on Twitter.com" onclick="window.open('https://twitter.com/share?text=Zombs.io&amp;url=https://www.gameflare.com/online-game/zombsio/', '_blank', 'width=655,height=455'); return false"><i class="fab fa-twitter-square"></i></span>
-<span data-placement="bottom" data-tooltip="tooltip" title="Share on Reddit" onclick="window.open('https://reddit.com/submit?url=https://www.gameflare.com/online-game/zombsio/&amp;title=Zombs.io', '_blank', 'width=655,height=455'); return false"><i class="fab fa-reddit-square"></i></span>
-<span data-placement="bottom" data-tooltip="tooltip" title="Share on VK.com" onclick="window.open('https://vk.com/share.php?url=https://www.gameflare.com/online-game/zombsio/', '_blank', 'width=655,height=455'); return false"><i class="fab fa-vk"></i></span>
-</div>
-</div>
-</div>
-</div>
-<div role="tabpanel" class="tab-pane" id="games">
-<div class="sidebar-games">
-<div class="row game-not-exists">
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="ZombsRoyale.io">
-<a href="https://www.gameflare.com/online-game/zombsroyaleio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-400-300.jpg" alt="ZombsRoyale.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8431/oRJWqAdN1ATtuN-400-300.jpg" alt="ZombsRoyale.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">90%</span>
-<span class="label label-primary">62.4k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/zombsroyaleio/" target="_blank">
-ZombsRoyale.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Apr 18th, 2018</span>
-<span class="label label-primary">HTML5</span>
-</span>
- Play a great zombie game where you’ll become a zombie killer.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Devast.io">
-<a href="https://www.gameflare.com/online-game/devastio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-400-300.jpg" alt="Devast.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8591/mWQUXJzo9OV6Ss-400-300.jpg" alt="Devast.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">83%</span>
-<span class="label label-primary">24.7k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/devastio/" target="_blank">
-Devast.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Jul 25th, 2018</span>
-<span class="label label-primary">HTML5</span>
-</span>
-A game taking place in a post-apocalyptic world.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Nend.io">
-<a href="https://www.gameflare.com/online-game/nendio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-400-300.jpg" alt="Nend.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8421/MXoNz6TkhHSika-400-300.jpg" alt="Nend.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">80%</span>
-<span class="label label-primary">9.9k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/nendio/" target="_blank">
-Nend.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Apr 11th, 2018</span>
-<span class="label label-primary">HTML5</span>
-</span>
-A great simulation where you’ll be controlling your hero.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Takemine.io">
-<a href="https://www.gameflare.com/online-game/takemineio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-400-300.jpg" alt="Takemine.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8347/fp3w0Z965WfU5t-400-300.jpg" alt="Takemine.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-warning">69%</span>
-<span class="label label-primary">9.6k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/takemineio/" target="_blank">
-Takemine.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Feb 23rd, 2018</span>
-<span class="label label-primary">HTML5</span>
-</span>
-Survive in this dangerous world and collect all of the available resources.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Blocker">
-<a href="https://www.gameflare.com/online-game/blocker/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-400-300.jpg" alt="Blocker online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/7820/0ngWc2C5dNpSMJ-400-300.jpg" alt="Blocker online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">77%</span>
-<span class="label label-primary">10.8k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/blocker/" target="_blank">
-Blocker
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: May 28th, 2017</span>
-<span class="label label-primary">HTML5</span>
-</span>
-Another .IO game, this time with RPG elements.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="KnightArena.io">
-<a href="https://www.gameflare.com/online-game/knightarena-io/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-400-300.jpg" alt="KnightArena online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/9442/INAc53j2vfpDY5-400-300.jpg" alt="KnightArena online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">77%</span>
-<span class="label label-primary">8.5k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/knightarena-io/" target="_blank">
-KnightArena.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: May 22nd, 2020</span>
-<span class="label label-primary">HTML5</span>
-</span>
-Try historical knightly combat in an arena full of enemy knights.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Shootup.io">
-<a href="https://www.gameflare.com/online-game/shootup-io/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-400-300.jpg" alt="Shootup online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/9426/vgAiG0qBKR4R41-400-300.jpg" alt="Shootup online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">87%</span>
-<span class="label label-primary">8.3k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/shootup-io/" target="_blank">
-Shootup.io
-</a>
-</p>
-<p class="content hidden">
- <span class="game-popover-info">
-<span class="label label-success">Published: May 12th, 2020</span>
-<span class="label label-primary">HTML5</span>
-</span>
-A survival game where you will be facing both people and zombies.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="MineStrike.fun">
-<a href="https://www.gameflare.com/online-game/minestrike-fun/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-400-300.jpg" alt="MineStrike online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/9355/DEIHgvOeC71NfT-400-300.jpg" alt="MineStrike online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">74%</span>
-<span class="label label-primary">24.0k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/minestrike-fun/" target="_blank">
-MineStrike.fun
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Feb 24th, 2020</span>
-<span class="label label-primary">HTML5</span>
-</span>
-Control a character in a Minecraft theme and destroy as many enemies as you can.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Zombies.io">
-<a href="https://www.gameflare.com/online-game/zombies-io/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-400-300.jpg" alt="Zombies online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/9236/KqJZE5Qmy3M61u-400-300.jpg" alt="Zombies online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-warning">67%</span>
-<span class="label label-primary">15.8k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/zombies-io/" target="_blank">
-Zombies.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Nov 2nd, 2019</span>
-<span class="label label-primary">HTML5</span>
-</span>
-Find gas for your car and kill zombies while you’re at it.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Braains2">
-<a href="https://www.gameflare.com/online-game/braains2/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-400-300.jpg" alt="Braains2 online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/9070/qfJ48arGrjgr8K-400-300.jpg" alt="Braains2 online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">82%</span>
-<span class="label label-primary">18.8k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/braains2/" target="_blank">
-Braains2
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Jun 10th, 2019</span>
-<span class="label label-primary">HTML5</span>
-</span>
-Play as zombies or people and destroy the other side.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="ZombiesWithGuns.io">
-<a href="https://www.gameflare.com/online-game/zombieswithgunsio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-400-300.jpg" alt="ZombiesWithGuns.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/9044/lffKusAbYUS7Ti-400-300.jpg" alt="ZombiesWithGuns.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-warning">59%</span>
-<span class="label label-primary">11.8k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/zombieswithgunsio/" target="_blank">
-ZombiesWithGuns.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: May 24th, 2019</span>
-<span class="label label-primary">HTML5</span>
-</span>
-Fight against other zombies in an arena on a server.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Lordz 2.io">
-<a href="https://www.gameflare.com/online-game/lordz-2io/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-400-300.jpg" alt="Lordz 2.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/9036/XXDq4kVbjGoqJ7-400-300.jpg" alt="Lordz 2.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">75%</span>
-<span class="label label-primary">21.6k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/lordz-2io/" target="_blank">
-Lordz 2.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: May 19th, 2019</span>
-<span class="label label-primary">HTML5</span>
-</span>
-A second installment into this strategy game where you’ll be fighting against your enemy’s army.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Yohoho.io">
-<a href="https://www.gameflare.com/online-game/yohohoio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-400-300.jpg" alt="Yohoho.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8985/CDrFjLqKb0hyFr-400-300.jpg" alt="Yohoho.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">82%</span>
-<span class="label label-primary">37.7k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/yohohoio/" target="_blank">
-Yohoho.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Apr 10th, 2019</span>
-<span class="label label-primary">HTML5</span>
-</span>
-Try out pirate fights in this online .io game.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="DeadWalk.io">
-<a href="https://www.gameflare.com/online-game/deadwalkio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-400-300.jpg" alt="DeadWalk.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8893/R5XoYwUJ8JjxsV-400-300.jpg" alt="DeadWalk.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">77%</span>
-<span class="label label-primary">21.8k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/deadwalkio/" target="_blank">
-DeadWalk.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Jan 31st, 2019</span>
-<span class="label label-primary">HTML5</span>
-</span>
-A multiplayer game where you’ll be fighting against other players and against zombie enemies.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="MiniGiants.io">
-<a href="https://www.gameflare.com/online-game/minigiantsio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-400-300.jpg" alt="MiniGiants.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8812/mMEUV91UKb5DGn-400-300.jpg" alt="MiniGiants.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">93%</span>
-<span class="label label-primary">7.2k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/minigiantsio/" target="_blank">
-MiniGiants.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Dec 3rd, 2018</span>
-<span class="label label-primary">HTML5</span>
-</span>
-A multiplayer game where you’ll be fighting in an arena.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="EvoWars.io">
-<a href="https://www.gameflare.com/online-game/evowarsio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-400-300.jpg" alt="EvoWars.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8767/PlFcEy7Fc8ORRa-400-300.jpg" alt="EvoWars.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">84%</span>
-<span class="label label-primary">8.4k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/evowarsio/" target="_blank">
-EvoWars.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Nov 6th, 2018</span>
-<span class="label label-primary">HTML5</span>
-</span>
-A multiplayer fantasy game.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Bandits Multiplayer PVP">
-<a href="https://www.gameflare.com/online-game/bandits-multiplayer-pvp/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-400-300.jpg" alt="Bandits Multiplayer PVP online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8735/ofklbgkTHeWpxw-400-300.jpg" alt="Bandits Multiplayer PVP online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">84%</span>
-<span class="label label-primary">25.7k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/bandits-multiplayer-pvp/" target="_blank">
-Bandits Multiplayer PVP
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Oct 18th, 2018</span>
-<span class="label label-primary">HTML5</span>
-</span>
-Fight on horseback in this multiplayer game.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="BuildRoyale.io">
-<a href="https://www.gameflare.com/online-game/buildroyaleio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-400-300.jpg" alt="BuildRoyale.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8699/DLDAkezOwVpCpx-400-300.jpg" alt="BuildRoyale.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">87%</span>
-<span class="label label-primary">39.6k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/buildroyaleio/" target="_blank">
-BuildRoyale.io
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Sep 29th, 2018</span>
-<span class="label label-primary">HTML5</span>
-</span>
-Charge the battlefield and win!
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="Zombie Town">
-<a href="https://www.gameflare.com/online-game/zombie-town/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-400-300.jpg" alt="Zombie Town online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8675/yBuh1zjROQcjC1-400-300.jpg" alt="Zombie Town online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">82%</span>
-<span class="label label-primary">14.2k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/zombie-town/" target="_blank">
-Zombie Town
-</a>
-</p>
-<p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Sep 14th, 2018</span>
-<span class="label label-primary">HTML5</span>
-</span>
-You find yourself in a zombie city, where you need to defend yourselves.
-</p>
-</div>
-</div>
-<div class="col-xs-3 game-cell">
-<div data-toggle="popover-game" title="BrutalMania.io">
-<a href="https://www.gameflare.com/online-game/brutalmaniaio/" target="_blank">
-<picture>
-<source data-srcset="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-<source data-srcset="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-<source data-srcset="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-<source data-srcset="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-<source data-srcset="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-400-300.jpg">
-<img class="lazyload" src="https://www.gameflare.com/images/blank.gif" data-src="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-400-300.jpg" alt="BrutalMania.io online game">
-</picture>
-<noscript>
-                <picture>
-                    <source srcset="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-120-90.jpg" media="screen and (max-width:409px), (min-width:768px) and (max-width:925px)">
-
-                    <source srcset="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-150-113.jpg" media="(min-width:410px) and (max-width:499px), (min-width:926px) and (max-width:1109px), (min-width:1300px) and (max-width:1599px)">
-
-                    <source srcset="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-180-135.jpg" media="(min-width:500px) and (max-width:599px), (min-width:1110px) and (max-width:1299px), (min-width:1600px) and (max-width:1869px)">
-
-                    <source srcset="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-220-165.jpg" media="(min-width:600px) and (max-width:767px), (min-width:1290px) and (max-width:1599px), (min-width:1870px) and (max-width:2600px)">
-
-                    <source srcset="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-400-300.jpg">
-
-                    <img src="https://data.gameflare.com/games/8644/jmeIye6ZTm6hTN-400-300.jpg" alt="BrutalMania.io online game">
-                </picture>
-            </noscript>
-</a>
-<p class="info">
-<span class="label label-success">85%</span>
-<span class="label label-primary">7.8k plays</span>
-</p>
-<p class="title">
-<a href="https://www.gameflare.com/online-game/brutalmaniaio/" target="_blank">
-BrutalMania.io
-</a>
-</p>
- <p class="content hidden">
-<span class="game-popover-info">
-<span class="label label-success">Published: Aug 28th, 2018</span>
-<span class="label label-primary">HTML5</span>
-</span>
-A great online multiplayer game where you find yourself in the arena.
-</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="fullscreen-mode" class="game-object has-footer">
-<div id="gameflare-asdk"></div>
-<input type="hidden" id="game-status" value="0">
-<div id="game-container">
-<div class="direct-field">
-<iframe src="http://zombs.io/" marginwidth="0" marginheight="0" frameborder="0" height="600" scrolling="no" width="1000" style="width: 100%; height: 100%;" id="iframe-in-import" data-iframe-src="http://zombs.io/" allow="autoplay; fullscreen" allowfullscreen></iframe>
-</div>
-</div>
-</div>
-<div class="embed-footer">
-<div class="title">
-<div class="sidebar-modal-toggle">
-<span class="sr-only">Toggle navigation</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</div>
-<a href="https://www.gameflare.com/online-game/zombsio/" target="_blank">
-<span class="text">Zombs.io</span>
-</a>
-</div>
-<div class="logo">
-<a href="https://www.gameflare.com/" target="_blank">
-<img src="https://www.gameflare.com/images/logo-en.png" alt="Free Online Games">
-</a>
-</div>
-<div class="more">
-<div class="button">
-<a href="https://www.gameflare.com/action-games/" target="_blank" title="More Action Games">
-<span class="sr-only">More</span>
-Action Games <i class="fas fa-angle-double-right"></i>
-</a>
-</div>
-<img class="do-fullscreen" src="https://www.gameflare.com/images/fullscreen.png" width="35" height="35" alt="Fullscreen" title="Fullscreen">
-</div>
-</div>
-<div id="modal-auth" class="modal fade">
-<div class="modal-dialog modal-auth">
-<div class="modal-content">
-<div class="modal-header">
-<h4 class="modal-title" data-for="login">Login</h4>
-<h4 class="modal-title hidden" data-for="register">Register</h4>
-<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-</div>
-<div class="modal-body">
-<div class="login" data-for="login">
-<div class="social-networks">
-<ul>
-<li class="login-fb">
-<a class="facebook" href="https://www.gameflare.com/login/facebook/">
-<i class="fab fa-facebook-f"></i>
-<span>Login with Facebook</span>
-</a>
-</li>
-<li class="login-google">
-<a class="google" href="https://www.gameflare.com/login/google/">
-<span class="white-box">
-<svg class="prepare">
-<defs>
-<linearGradient id="grad-google-one" x1="0%" y1="60%" x2="40%" y2="10%">
-<stop offset="49%" stop-color="#0f9d58" />
-<stop offset="51%" stop-color="#4285f4" />
-</linearGradient>
- <linearGradient id="grad-google-two" x1="0%" y1="75%" x2="40%" y2="0%">
-<stop offset="49%" stop-color="#f4b400" />
-<stop offset="51%" stop-color="#db4437" />
-</linearGradient>
-</defs>
-</svg>
-<div class="icon">
-<i class="fab fa-google"></i>
-<i class="fab fa-google"></i>
-</div>
-</span>
-<span>Login with Google</span>
-</a>
-</li>
-<li class="login-twitter">
-<a class="twitter" href="https://www.gameflare.com/login/twitter/">
-<i class="fab fa-twitter"></i>
-<span>Login with Twitter</span>
-</a>
-</li>
-<li class="login-steam">
-<a class="steam" href="https://www.gameflare.com/login/steam/">
-<i class="fab fa-steam"></i>
-<span>Login with Steam</span>
-</a>
-</li>
-</ul>
-</div>
-<div class="or">
-<hr>
-<span>
-<i class="fal fa-sort-circle"></i>
-</span>
-</div>
-<form action="https://www.gameflare.com/login/" method="POST">
-<div class="form-group">
-<label for="username">User Name</label>
-<input id="username" type="text" class="form-control" name="username" required>
-</div>
-<div class="form-group">
-<label for="password">Password</label>
-<input id="password" type="password" class="form-control" name="password" required>
-</div>
-<div class="form-group">
-<label class="checkbox-inline">
-<input type="checkbox" name="remember"> Remember Me
-</label>
-</div>
-<button type="submit" class="hidden">Login</button>
-</form>
-</div>
-<div class="register hidden" data-for="register">
-<form action="https://www.gameflare.com/register/" method="POST">
-<input type="hidden" name="timezone">
-<div class="form-group">
-<label for="username">User Name</label>
-<input id="username" type="text" class="form-control" name="username" required>
-</div>
-<div class="form-group">
-<label for="email">Email Address</label>
-<input id="email" type="email" class="form-control" name="email" required>
-</div>
-<div class="form-group">
-<label for="password">Password</label>
-<input id="password" type="password" class="form-control" name="password" required>
-</div>
-<div class="form-group">
-<label for="password-confirm">Confirm Password</label>
-<input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
-</div>
-<div class="form-group captcha">
-<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-<div id="_g-recaptcha"></div>
-<div class="g-recaptcha" data-sitekey="6Lc3-7IUAAAAABn_5kMD4aTu8kmKx9Zqeijq-Sz5" data-size="invisible" data-callback="_submitForm" data-badge="inline"></div><script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
-<script>var _submitForm,_captchaForm,_captchaSubmit,_execute=true,_captchaBadge;</script><script>window.addEventListener('load', _loadCaptcha);
-function _loadCaptcha(){_captchaForm=document.querySelector("#_g-recaptcha").closest("form");_captchaSubmit=_captchaForm.querySelector('[type=submit]');_submitForm=function(){if(typeof _submitEvent==="function"){_submitEvent();grecaptcha.reset();}else{_captchaForm.submit();}};_captchaForm.addEventListener('submit',function(e){e.preventDefault();if(typeof _beforeSubmit==='function'){_execute=_beforeSubmit(e);}if(_execute){grecaptcha.execute();}});}</script>
-</div>
-<div class="form-group">
-<p class="info-text text-muted">
-By registering you agree with <a href="https://www.gameflare.com/privacy-policy/" target="_blank">Privacy Policy</a>, <a href="https://www.gameflare.com/cookie-policy/" target="_blank">Cookie Policy</a> and <a href="https://www.gameflare.com/terms-of-service/" target="_blank">Terms of Service</a>.
-</p>
-</div>
-<button type="submit" class="hidden">Register</button>
-</form>
-</div>
-</div>
-<div class="modal-footer">
-<span class="switch pull-left" data-type="login">
-<a href="#" data-for="login">Not a Member yet?</a>
-<a href="#" data-for="register" class="hidden">Already a Member?</a>
-</span>
-<button type="button" data-for="login" class="btn pull-right">Login</button>
-<button type="button" data-for="register" class="btn pull-right hidden">Register</button>
-</div>
-</div>
-</div>
-</div>
-<div class="can-run-ads">
-<div class="ad-banner"><!-- --></div>
-</div>
-<script src="https://www.gameflare.com/js/lazysizes.min.js?id=b80e49640d4794d4333d"></script>
-<script src="https://www.gameflare.com/js/embed.min.js?id=5ff12242569aabc4a1d4"></script>
-<script src="https://imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
-<script src="https://www.gameflare.com/js/gameflare-asdk.min.js?id=00620a580a675eb9a9ab"></script>
-<script>
-        $(function() {
-            GameflareAsdk.load({"isEmbed":true,"isOnMobile":false,"isPreloadAds":true,"advert":{"network":"adsense","type":"everywhere"},"networks":{"ownImages":{"exists":true,"url":"https:\/\/www.gameflare.com\/common\/promotions\/own-images\/?image=","width":960,"height":595},"adsense":{"tagUrl":"\/\/googleads.g.doubleclick.net\/pagead\/ads?ad_type=skippablevideo_image_text\u0026videoad_start_delay=0\u0026max_ad_duration=40000\u0026hl=en\u0026description_url=https%3A%2F%2Fwww.gameflare.com%2Fembed%2Fzombsio%2F\u0026client=ca-games-pub-6997479010326903\u0026channel=4383455657+3028920851","backup":"cpmstar"},"cpmstar":{"url":"https:\/\/www.gameflare.com\/common\/promotions\/cpmstar\/?pid=","subpid":null,"width":960,"height":595},"wgplayer":{"url":"https:\/\/distribution.gameflare.com\/partner-domain\/","scripts":{"mobile":"https:\/\/st.wgplayer.com\/gameflare.com\/wgAds.mobile.conf.js","desktop":"https:\/\/st.wgplayer.com\/gameflare.com\/wgAds.desktop.conf.js","main":"https:\/\/st.wgplayer.com\/gameflare.com\/js\/JsUg9Arejn0lJ_rwS1Gwvg\/10181060772\/wgAds.js"},"domain":{"id":"001"},"game":{"id":"001"},"backup":"adsense"}},"size":{"width":1000,"height":635},"import":"4-classic-iframe","importsByIframe":["3-iframe-without-scrollbar","4-classic-iframe","17-iframe-with-referrer-parameter","20-general-html5"],"splashScreen":{"active":1,"title":"Zombs.io","image":{"src":"https:\/\/data.gameflare.com\/games\/7791\/0eMOT4gpWySpGL-400-300.jpg","alt":"Zombs.io online game"},"button":{"text":"Play Game"},"continue":{"text":"Continue playing this game"},"policy":{"active":false,"text":"You agree with \u003Ca href=\u0022https:\/\/www.gameflare.com\/privacy-policy\/\u0022 target=\u0022_blank\u0022 class=\u0022external-link\u0022\u003EPrivacy Policy\u003C\/a\u003E and \u003Ca href=\u0022https:\/\/www.gameflare.com\/cookie-policy\/\u0022 target=\u0022_blank\u0022 class=\u0022external-link\u0022\u003ECookie Policy\u003C\/a\u003E."}},"embedUrl":"https:\/\/www.gameflare.com\/embed\/zombsio\/","iframeUrl":"http:\/\/zombs.io\/","loadingUrl":"https:\/\/www.gameflare.com\/loading\/","embedUrlEncode":"https%3A%2F%2Fwww.gameflare.com%2Fembed%2Fzombsio%2F","cookie":{"key":"showed-banner-zombsio","domain":".gameflare.com","secure":true,"sameSite":"none"},"blacklist":{"domains":["www.abcya100.xyz","consoleonline.rozblog.com","www.friv8-games.org","www.sexondbar.com","www.lossimpsonsonline.com.ar","joaquiniam.neocities.org","1friv.info","www.juegosfriv2016.org","www.gekogames.com","ronrs.comunidades.net","1001juegos-swf.blogspot.com","cc.bingj.com","vseigru.one","www.jogos360friv.com","www.juegosdefriv2018.com","webcindario.com","www.friv-2018-games.com","www.1friv.info","raspe.id.au","juegosfriv2016.org","neocities.org","www.friv5.games","how-to-play-poker-for-dummies.net","jogosfriv4school.com","m.jogosfriv4school.com","cloudwaysapps.com","filesusr.com","etrafficlane.com"]}});
+    <head>
+        <meta charset="UTF-8">
+        <title>ZOMBS.io | Build. Defend. Survive.</title>
+              
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ZOMBSio">
+    <meta name="og:title" content="ZOMBS.io | Build. Defend. Survive.">
+    <meta name="og:description" content="Play ZOMBS.io - a new Zombie tower defense game. Build your base and defend it against zombies at night!">
+    <meta name="og:image" content="http://zombs.io/asset/image/misc/twitter-card.png">
+    </head>
+
+    <body>
+            <div id="hud-intro" class="hud-intro">
+                                        <span class="hud-intro-stone" style="top:19%;left:18%;"></span>
+                                <span class="hud-intro-stone" style="top:57%;left:61%;"></span>
+                                <span class="hud-intro-tree" style="top:93%;left:20%;"></span>
+                                <span class="hud-intro-stone" style="top:9%;left:94%;"></span>
+                <div class="hud-intro-wrapper">
+            <h1>ZOMBS<small>.io</small></h1>
+            <h2>Build. Defend. Survive.</h2>
+            <div class="hud-intro-main">
+                <div class="hud-intro-left">
+                    <div class="ad-unit ad-unit-medrec ad-unit-medrec-atf" style="margin:0 0 20px;">
+                        <div id="ad-medrec-1"></div>
+                        <script type="text/javascript">
+                            window.nitroAds.createAd('ad-medrec-1', {
+                                refreshLimit: 10,
+                                refreshTime: 30,
+                                report: {
+                                    enabled: true,
+                                    wording: 'Report Ad',
+                                    position: 'fixed-bottom-right'
+                                },
+                                sizes: [[300, 250]]
+                            });
+                        </script>
+                    </div>
+                    <a href="https://goo.gl/fB2YYf" target="_blank" style="display:block;width:300px;height:180px;background:url('http://zombsroyale.io/asset/image/twitter-card.jpg') no-repeat top center;background-size:cover;border-radius:4px;"></a>
+                </div>
+                <div class="hud-intro-form">
+                    <input type="text" class="hud-intro-name" maxlength="16" placeholder="Your nickname...">
+                    <select class="hud-intro-server">
+                                                    <optgroup label="US East">
+                                                                                                                                                                                                                        <option value="v32306117" selected>US East #1 [High]</option>
+                                                                                                                                                                                                                        <option value="v32306124">US East #2 [Medium]</option>
+                                                                                                                                            <option value="v32306126">US East #3 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32306118">US East #4 [High]</option>
+                                                                                                                                                                                                                        <option value="v32306119">US East #5 [Medium]</option>
+                                                                                                                                                                                                                        <option value="v32306120">US East #6 [Medium]</option>
+                                                                                                                                            <option value="v32306122">US East #7 [Low]</option>
+                                                                                                                                            <option value="v32306123">US East #8 [Low]</option>
+                                                                                                                                            <option value="v32306121">US East #9 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32306125">US East #10 [Medium]</option>
+                                                                                                                                            <option value="v32306141">US East #11 [Low]</option>
+                                                                                                                                            <option value="v32306142">US East #12 [Low]</option>
+                                                                                                                                            <option value="v32306138">US East #13 [Low]</option>
+                                                                                                                                            <option value="v32306137">US East #14 [Low]</option>
+                                                                                                                                            <option value="v32306140">US East #15 [Low]</option>
+                                                                                                                                            <option value="v32306145">US East #16 [Low]</option>
+                                                                                                                                            <option value="v32306144">US East #17 [Low]</option>
+                                                                                                                                            <option value="v32306146">US East #18 [Low]</option>
+                                                                                                                                            <option value="v32306139">US East #19 [Low]</option>
+                                                                                                                                            <option value="v32306143">US East #20 [Low]</option>
+                                                                                                                                            <option value="v32306161">US East #21 [Low]</option>
+                                                                                                                                            <option value="v32306163">US East #22 [Low]</option>
+                                                                                                                                            <option value="v32306162">US East #23 [Low]</option>
+                                                                                                                                            <option value="v32306165">US East #24 [Low]</option>
+                                                                                                                                            <option value="v32306164">US East #25 [Low]</option>
+                                                                                                                                            <option value="v32306166">US East #26 [Low]</option>
+                                                                                                                                            <option value="v32306159">US East #27 [Low]</option>
+                                                                                                                                            <option value="v32306157">US East #28 [Low]</option>
+                                                                                                                                            <option value="v32306158">US East #29 [Low]</option>
+                                                                                                                                            <option value="v32306160">US East #30 [Low]</option>
+                                                                                                                                            <option value="v32306173">US East #31 [Low]</option>
+                                                                                                                                            <option value="v32306174">US East #32 [Low]</option>
+                                                            </optgroup>
+                                                    <optgroup label="US West">
+                                                                                                                                            <option value="v32305606">US West #1 [Low]</option>
+                                                                                                                                            <option value="v32305605">US West #2 [Low]</option>
+                                                                                                                                            <option value="v32305611">US West #3 [Low]</option>
+                                                                                                                                            <option value="v32305610">US West #4 [Low]</option>
+                                                                                                                                            <option value="v32305612">US West #5 [Low]</option>
+                                                                                                                                            <option value="v32305613">US West #6 [Low]</option>
+                                                                                                                                            <option value="v32305607">US West #7 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32305609">US West #8 [High]</option>
+                                                                                                                                                                                                                        <option value="v32305608">US West #9 [Medium]</option>
+                                                                                                                                            <option value="v32305625">US West #10 [Low]</option>
+                                                                                                                                            <option value="v32305626">US West #11 [Low]</option>
+                                                                                                                                            <option value="v32305623">US West #12 [Low]</option>
+                                                                                                                                            <option value="v32305622">US West #13 [Low]</option>
+                                                                                                                                            <option value="v32305621">US West #14 [Low]</option>
+                                                                                                                                            <option value="v32305624">US West #15 [Low]</option>
+                                                            </optgroup>
+                                                    <optgroup label="Europe">
+                                                                                                                                                                                                                        <option value="v32304814">Europe #1 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304820">Europe #2 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304819">Europe #3 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304812">Europe #4 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304815">Europe #5 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304816">Europe #6 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304821">Europe #7 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304817">Europe #8 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304818">Europe #9 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304813">Europe #10 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304840">Europe #11 [High]</option>
+                                                                                                                                            <option value="v32304833">Europe #12 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32304839">Europe #13 [Medium]</option>
+                                                                                                                                            <option value="v32304834">Europe #14 [Low]</option>
+                                                                                                                                            <option value="v32304835">Europe #15 [Low]</option>
+                                                                                                                                            <option value="v32304838">Europe #16 [Low]</option>
+                                                                                                                                            <option value="v32304831">Europe #17 [Low]</option>
+                                                                                                                                            <option value="v32304837">Europe #18 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32304832">Europe #19 [Medium]</option>
+                                                                                                                                                                                                                        <option value="v32304836">Europe #20 [Medium]</option>
+                                                                                                                                            <option value="v32304862">Europe #21 [Low]</option>
+                                                                                                                                            <option value="v32304864">Europe #22 [Low]</option>
+                                                                                                                                            <option value="v32304863">Europe #23 [Low]</option>
+                                                                                                                                            <option value="v32304861">Europe #24 [Low]</option>
+                                                                                                                                            <option value="v32304860">Europe #25 [Low]</option>
+                                                                                                                                            <option value="v32304859">Europe #26 [Low]</option>
+                                                                                                                                            <option value="v32304858">Europe #27 [Low]</option>
+                                                                                                                                            <option value="v32304857">Europe #28 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32304856">Europe #29 [Medium]</option>
+                                                                                                                                            <option value="v32304865">Europe #30 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32304881">Europe #31 [High]</option>
+                                                                                                                                                                                                                        <option value="v32304880">Europe #32 [High]</option>
+                                                            </optgroup>
+                                                    <optgroup label="Asia">
+                                                                                                                                                                                                                        <option value="v32306496">Asia #1 [High]</option>
+                                                                                                                                                                                                                        <option value="v32306497">Asia #2 [High]</option>
+                                                                                                                                                                                                                        <option value="v32306501">Asia #3 [High]</option>
+                                                                                                                                                                                                                        <option value="v32306492">Asia #4 [High]</option>
+                                                                                                                                            <option value="v32306495">Asia #5 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32306494">Asia #6 [High]</option>
+                                                                                                                                            <option value="v32306498">Asia #7 [Low]</option>
+                                                                                                                                            <option value="v32306499">Asia #8 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32306500">Asia #9 [High]</option>
+                                                                                                                                            <option value="v32306493">Asia #10 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32306505">Asia #11 [High]</option>
+                                                                                                                                            <option value="v32306507">Asia #12 [Low]</option>
+                                                                                                                                            <option value="v32306506">Asia #13 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32306510">Asia #14 [High]</option>
+                                                                                                                                                                                                                        <option value="v32306509">Asia #15 [High]</option>
+                                                                                                                                                                                                                        <option value="v32306508">Asia #16 [Medium]</option>
+                                                            </optgroup>
+                                                    <optgroup label="Australia">
+                                                                                                                                            <option value="v32306672">Australia #1 [Low]</option>
+                                                                                                                                            <option value="v32306669">Australia #2 [Low]</option>
+                                                                                                                                            <option value="v32306674">Australia #3 [Low]</option>
+                                                                                                                                            <option value="v32306678">Australia #4 [Low]</option>
+                                                                                                                                            <option value="v32306675">Australia #5 [Low]</option>
+                                                                                                                                            <option value="v32306670">Australia #6 [Low]</option>
+                                                                                                                                                                                                                        <option value="v32306676">Australia #7 [Medium]</option>
+                                                                                                                                            <option value="v32306671">Australia #8 [Low]</option>
+                                                                                                                                            <option value="v32306677">Australia #9 [Low]</option>
+                                                                                                                                            <option value="v32306673">Australia #10 [Low]</option>
+                                                                                                                                            <option value="v32306697">Australia #11 [Low]</option>
+                                                                                                                                            <option value="v32306696">Australia #12 [Low]</option>
+                                                                                                                                            <option value="v32306698">Australia #13 [Low]</option>
+                                                                                                                                            <option value="v32306695">Australia #14 [Low]</option>
+                                                                                                                                            <option value="v32306693">Australia #15 [Low]</option>
+                                                            </optgroup>
+                                                    <optgroup label="South America">
+                                                                                                                                            <option value="v32305897">South America #1 [Low]</option>
+                                                                                                                                            <option value="v32305900">South America #2 [Low]</option>
+                                                                                                                                            <option value="v32305898">South America #3 [Low]</option>
+                                                                                                                                            <option value="v32305895">South America #4 [Low]</option>
+                                                                                                                                            <option value="v32305903">South America #5 [Low]</option>
+                                                                                                                                            <option value="v32305894">South America #6 [Low]</option>
+                                                                                                                                            <option value="v32305902">South America #7 [Low]</option>
+                                                                                                                                            <option value="v32305899">South America #8 [Low]</option>
+                                                                                                                                            <option value="v32305901">South America #9 [Low]</option>
+                                                                                                                                            <option value="v32305896">South America #10 [Low]</option>
+                                                                                                                                            <option value="v32305920">South America #11 [Low]</option>
+                                                                                                                                            <option value="v32305923">South America #12 [Low]</option>
+                                                                                                                                            <option value="v32305921">South America #13 [Low]</option>
+                                                                                                                                            <option value="v32305925">South America #14 [Low]</option>
+                                                                                                                                            <option value="v32305922">South America #15 [Low]</option>
+                                                                                                                                            <option value="v32305924">South America #16 [Low]</option>
+                                                            </optgroup>
+                                            </select>
+                    <button type="submit" class="btn btn-green hud-intro-play">Play</button>
+                    <span class="hud-intro-error"></span>
+                    <label>
+                        <input type="checkbox" class="hud-intro-canvas" name="canvas" value="true">
+                        <span>Disable GPU Acceleration</span>
+                    </label>
+                </div>
+                <div class="hud-intro-guide">
+                    <div class="hud-intro-guide-changelog">
+                        <h3>New Features</h3>
+                        <small>July 9, 2017</small>
+                        <p>New spell: <strong>Heal Towers</strong>. Cast an AOE spell that heals your towers for a short period of time to defend against tough waves!</p>
+                        <a href="/changelog" class="hud-name-changelog-preview" target="_blank"></a>
+                        <a href="/changelog" class="hud-name-changelog-full" target="_blank">View changelog</a>
+                    </div>
+                    <h3>Essentials</h3>
+                    <ul class="hud-intro-guide-hints">
+                        <li><span class="hud-intro-guide-icon hud-intro-guide-base"></span> Build a gold stash to establish your base and start defending.</li>
+                        <li><span class="hud-intro-guide-icon hud-intro-guide-resources"></span> Collect resources with your pickaxe to upgrade your base.</li>
+                        <li><span class="hud-intro-guide-icon hud-intro-guide-towers"></span> Build towers to defend against zombies.</li>
+                        <li><span class="hud-intro-guide-icon hud-intro-guide-gold-mine"></span> Build gold mines to generate gold and upgrade your buildings.</li>
+                        <li><span class="hud-intro-guide-icon hud-intro-guide-shop"></span> Use the Shop to buy weapons and upgrade them.</li>
+                    </ul>
+                    <h3>How to Play</h3>
+                    <p>Gather WOOD and STONE to build your base. Place your GOLD when you are ready - Zombies will now attack at night. Make sure to build GOLD MINES (to generate gold), TOWERS and WALLS to defend against Zombies. With gold, you can upgrade your GOLD STASH, which lets you upgrade your TOWERS & WALLS to become stronger. WIth gold, you can also access the SHOP (B) to buy new PICKAXE and other weapons.</p>
+                    <h3>Controls</h3>
+                    <ul class="hud-intro-guide-controls">
+                        <li>Movement: <strong>W, A, S, D</strong></li>
+                        <li>Turn: <strong>Mouse</strong></li>
+                        <li>Gather/Attack/Build: <strong>Left-Click</strong></li>
+                        <li>Unselect: <strong>Esc or Right-Click</strong></li>
+                        <li>Auto-Attack: <strong>Space</strong></li>
+                        <li>Quick Upgrade: <strong>E</strong></li>
+                        <li>Quick Sell: <strong>T</strong></li>
+                        <li>Quick Heal: <strong>F</strong></li>
+                        <li>Upgrade All: <strong>Hold Shift or Alt</strong></li>
+                        <li>Cycle Weapons: <strong>Q</strong></li>
+                        <li>Shop Menu: <strong>B</strong></li>
+                        <li>Party Menu: <strong>P</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ad-unit ad-unit-leaderboard ad-unit-leaderboard-atf">
+                <div id="ad-leaderboard-1"></div>
+            </div>
+        </div>
+        <div class="hud-intro-footer">
+            <span>&copy; 2021 ZOMBS.io</span>
+            <a href="https://www.reddit.com/r/Zombsio/" target="_blank">Reddit</a>
+            <a href="/changelog" target="_blank">Changelog</a>
+            <a href="/privacy" target="_blank">Privacy Policy</a>
+        </div>
+        <div class="hud-intro-corner-top-left">
+            <div class="hud-intro-youtuber">
+                <h3>Featured YouTuber:</h3>
+                <a href="https://www.youtube.com/watch?v=7LQUuo6pUBE" target="_blank">RedstoneKing79</a>
+            </div>
+        </div>
+        <div class="hud-intro-corner-top-right">
+            <div class="hud-intro-leaderboard">
+                <h3>Top <select name="category" class="hud-intro-leaderboard-category"><option value="wave">Wave</option><option value="score">Score</option></select> For <select name="time" class="hud-intro-leaderboard-time"><option value="24h">Today</option><option value="7d">This Week</option><option value="all">All Time</option></select></h3>
+                <div class="hud-intro-leaderboard-parties">
+                                            <div class="hud-leaderboard-party">Tthavetopp, xX ˙ ͜ʟ˙ ⵝx &mdash; <strong>2,569</strong></div>
+                                            <div class="hud-leaderboard-party">Zenith &mdash; <strong>2,266</strong></div>
+                                            <div class="hud-leaderboard-party">꧁༒•brock•༒꧂, ꧁༒•brock•༒꧂, ꧁༒•brock•༒꧂, ꧁༒•brock•༒꧂ &mdash; <strong>1,829</strong></div>
+                                            <div class="hud-leaderboard-party">Reverse, jx9, jx9, jx9 &mdash; <strong>1,408</strong></div>
+                                            <div class="hud-leaderboard-party">✘Xh.h.proX✔, Power Head✔ :P, pot, pot &mdash; <strong>921</strong></div>
+                                    </div>
+            </div>
+        </div>
+        <div class="hud-intro-corner-bottom-left">
+            <div class="hud-intro-social">
+                <p>Come chat with us on Discord and get instant updates for new features on Twitter/Facebook!</p>
+                <a href="https://discord.gg/CuKpMMP" target="_blank" class="btn btn-discord hud-name-social-discord"></a>
+                <a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fzombs.io%2F&ref_src=twsrc%5Etfw&screen_name=ZOMBSio&tw_p=followbutton" target="_blank" class="btn btn-twitter hud-name-social-twitter"></a>
+                <a href="https://www.facebook.com/zombsio/" target="_blank" class="btn btn-facebook hud-name-social-facebook"></a>
+                <a href="https://www.youtube.com/channel/UCo9aJFjNTFxXaxg2UxGsBUA?sub_confirmation=1" target="_blank" class="btn btn-youtube hud-name-social-youtube"></a>
+            </div>
+        </div>
+        <div class="hud-intro-corner-bottom-right">
+            <div class="hud-intro-more-games">
+                <a href="http://iogames.space/" target="_blank">More IO Games</a>
+            </div>
+        </div>
+    </div>
+        <script src="/asset/sentry.js"></script>
+    <script src="/asset/app.js?1599710650"></script>
+    <script>
+        Sentry.init({
+            dsn: 'https://0682fea007384f2290dae5ab4b2bf78c@sentry.end.gg/3',
+            environment: 'prod',
+            release: 'bd8c437be059179572456e0bc9d710896e25423a',
+            maxBreadcrumbs: 0,
+            instrument: false,
+            whitelistUrls: [
+                'http://zombs.io',
+                'https://zombs.io'
+            ],
+            beforeSend: function(e, hint) {
+                var rewriteErrors = {
+                    'Cannot enlarge memory arrays': 'Exhausted available memory limit while running game...',
+                    'out of memory': 'Exhausted available memory limit while running game...'
+                };
+
+                for (var originalMatch in rewriteErrors) {
+                    if (e.message && e.message.indexOf(originalMatch) > -1) {
+                        e.message = rewriteErrors[originalMatch];
+                        break;
+                    }
+                }
+
+                Sentry.trackedErrors = 'trackedErrors' in Sentry ? Sentry.trackedErrors + 1 : 1;
+
+                if (Sentry.trackedErrors > 10) {
+                    return null;
+                }
+
+                return e;
+            }
+        });
+
+        var game = new Game({
+            stage: 'prod',
+            servers: {"v32306117":{"id":"v32306117","region":"US East","name":"US East #1","hostname":"104.156.225.133","port":80,"fallbackPort":8000,"population":69,"selected":true},"v32306124":{"id":"v32306124","region":"US East","name":"US East #2","hostname":"45.77.149.224","port":80,"fallbackPort":8000,"population":34,"selected":false},"v32306126":{"id":"v32306126","region":"US East","name":"US East #3","hostname":"207.148.27.190","port":80,"fallbackPort":8000,"population":9,"selected":false},"v32306118":{"id":"v32306118","region":"US East","name":"US East #4","hostname":"149.28.58.193","port":80,"fallbackPort":8000,"population":81,"selected":false},"v32306119":{"id":"v32306119","region":"US East","name":"US East #5","hostname":"45.77.200.150","port":80,"fallbackPort":8000,"population":38,"selected":false},"v32306120":{"id":"v32306120","region":"US East","name":"US East #6","hostname":"45.76.166.32","port":80,"fallbackPort":8000,"population":41,"selected":false},"v32306122":{"id":"v32306122","region":"US East","name":"US East #7","hostname":"173.199.123.77","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32306123":{"id":"v32306123","region":"US East","name":"US East #8","hostname":"45.76.4.28","port":80,"fallbackPort":8000,"population":13,"selected":false},"v32306121":{"id":"v32306121","region":"US East","name":"US East #9","hostname":"45.77.203.204","port":80,"fallbackPort":8000,"population":9,"selected":false},"v32306125":{"id":"v32306125","region":"US East","name":"US East #10","hostname":"207.246.91.98","port":80,"fallbackPort":8000,"population":34,"selected":false},"v32306141":{"id":"v32306141","region":"US East","name":"US East #11","hostname":"45.77.149.241","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32306142":{"id":"v32306142","region":"US East","name":"US East #12","hostname":"207.246.123.252","port":80,"fallbackPort":8000,"population":16,"selected":false},"v32306138":{"id":"v32306138","region":"US East","name":"US East #13","hostname":"207.246.80.27","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306137":{"id":"v32306137","region":"US East","name":"US East #14","hostname":"104.238.135.188","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32306140":{"id":"v32306140","region":"US East","name":"US East #15","hostname":"45.77.157.144","port":80,"fallbackPort":8000,"population":13,"selected":false},"v32306145":{"id":"v32306145","region":"US East","name":"US East #16","hostname":"140.82.11.61","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306144":{"id":"v32306144","region":"US East","name":"US East #17","hostname":"45.77.145.12","port":80,"fallbackPort":8000,"population":3,"selected":false},"v32306146":{"id":"v32306146","region":"US East","name":"US East #18","hostname":"8.12.17.142","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32306139":{"id":"v32306139","region":"US East","name":"US East #19","hostname":"149.28.33.161","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32306143":{"id":"v32306143","region":"US East","name":"US East #20","hostname":"104.207.133.182","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32306161":{"id":"v32306161","region":"US East","name":"US East #21","hostname":"208.167.253.73","port":80,"fallbackPort":8000,"population":3,"selected":false},"v32306163":{"id":"v32306163","region":"US East","name":"US East #22","hostname":"149.28.43.191","port":80,"fallbackPort":8000,"population":13,"selected":false},"v32306162":{"id":"v32306162","region":"US East","name":"US East #23","hostname":"207.246.88.134","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306165":{"id":"v32306165","region":"US East","name":"US East #24","hostname":"149.28.45.146","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306164":{"id":"v32306164","region":"US East","name":"US East #25","hostname":"207.246.126.254","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306166":{"id":"v32306166","region":"US East","name":"US East #26","hostname":"207.246.93.126","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306159":{"id":"v32306159","region":"US East","name":"US East #27","hostname":"45.32.7.104","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32306157":{"id":"v32306157","region":"US East","name":"US East #28","hostname":"144.202.11.116","port":80,"fallbackPort":8000,"population":3,"selected":false},"v32306158":{"id":"v32306158","region":"US East","name":"US East #29","hostname":"173.199.115.201","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306160":{"id":"v32306160","region":"US East","name":"US East #30","hostname":"45.77.145.22","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306173":{"id":"v32306173","region":"US East","name":"US East #31","hostname":"149.28.33.30","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32306174":{"id":"v32306174","region":"US East","name":"US East #32","hostname":"45.63.5.165","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32305606":{"id":"v32305606","region":"US West","name":"US West #1","hostname":"149.28.87.132","port":80,"fallbackPort":8000,"population":13,"selected":false},"v32305605":{"id":"v32305605","region":"US West","name":"US West #2","hostname":"108.61.219.244","port":80,"fallbackPort":8000,"population":3,"selected":false},"v32305611":{"id":"v32305611","region":"US West","name":"US West #3","hostname":"149.248.1.14","port":80,"fallbackPort":8000,"population":9,"selected":false},"v32305610":{"id":"v32305610","region":"US West","name":"US West #4","hostname":"45.76.175.122","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32305612":{"id":"v32305612","region":"US West","name":"US West #5","hostname":"144.202.115.253","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32305613":{"id":"v32305613","region":"US West","name":"US West #6","hostname":"45.77.68.155","port":80,"fallbackPort":8000,"population":22,"selected":false},"v32305607":{"id":"v32305607","region":"US West","name":"US West #7","hostname":"45.76.68.210","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32305609":{"id":"v32305609","region":"US West","name":"US West #8","hostname":"207.246.110.13","port":80,"fallbackPort":8000,"population":63,"selected":false},"v32305608":{"id":"v32305608","region":"US West","name":"US West #9","hostname":"149.28.71.117","port":80,"fallbackPort":8000,"population":31,"selected":false},"v32305625":{"id":"v32305625","region":"US West","name":"US West #10","hostname":"207.246.111.252","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32305626":{"id":"v32305626","region":"US West","name":"US West #11","hostname":"144.202.121.113","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32305623":{"id":"v32305623","region":"US West","name":"US West #12","hostname":"149.248.12.81","port":80,"fallbackPort":8000,"population":22,"selected":false},"v32305622":{"id":"v32305622","region":"US West","name":"US West #13","hostname":"144.202.127.9","port":80,"fallbackPort":8000,"population":9,"selected":false},"v32305621":{"id":"v32305621","region":"US West","name":"US West #14","hostname":"144.202.120.15","port":80,"fallbackPort":8000,"population":16,"selected":false},"v32305624":{"id":"v32305624","region":"US West","name":"US West #15","hostname":"45.77.68.143","port":80,"fallbackPort":8000,"population":3,"selected":false},"v32304814":{"id":"v32304814","region":"Europe","name":"Europe #1","hostname":"95.179.167.12","port":80,"fallbackPort":8000,"population":91,"selected":false},"v32304820":{"id":"v32304820","region":"Europe","name":"Europe #2","hostname":"217.163.29.174","port":80,"fallbackPort":8000,"population":91,"selected":false},"v32304819":{"id":"v32304819","region":"Europe","name":"Europe #3","hostname":"199.247.19.65","port":80,"fallbackPort":8000,"population":78,"selected":false},"v32304812":{"id":"v32304812","region":"Europe","name":"Europe #4","hostname":"95.179.251.93","port":80,"fallbackPort":8000,"population":75,"selected":false},"v32304815":{"id":"v32304815","region":"Europe","name":"Europe #5","hostname":"45.32.158.210","port":80,"fallbackPort":8000,"population":84,"selected":false},"v32304816":{"id":"v32304816","region":"Europe","name":"Europe #6","hostname":"45.77.53.65","port":80,"fallbackPort":8000,"population":94,"selected":false},"v32304821":{"id":"v32304821","region":"Europe","name":"Europe #7","hostname":"209.250.234.29","port":80,"fallbackPort":8000,"population":81,"selected":false},"v32304817":{"id":"v32304817","region":"Europe","name":"Europe #8","hostname":"136.244.83.44","port":80,"fallbackPort":8000,"population":84,"selected":false},"v32304818":{"id":"v32304818","region":"Europe","name":"Europe #9","hostname":"80.240.25.107","port":80,"fallbackPort":8000,"population":81,"selected":false},"v32304813":{"id":"v32304813","region":"Europe","name":"Europe #10","hostname":"95.179.169.17","port":80,"fallbackPort":8000,"population":91,"selected":false},"v32304840":{"id":"v32304840","region":"Europe","name":"Europe #11","hostname":"136.244.84.168","port":80,"fallbackPort":8000,"population":81,"selected":false},"v32304833":{"id":"v32304833","region":"Europe","name":"Europe #12","hostname":"95.179.241.70","port":80,"fallbackPort":8000,"population":3,"selected":false},"v32304839":{"id":"v32304839","region":"Europe","name":"Europe #13","hostname":"45.76.86.234","port":80,"fallbackPort":8000,"population":41,"selected":false},"v32304834":{"id":"v32304834","region":"Europe","name":"Europe #14","hostname":"95.179.164.203","port":80,"fallbackPort":8000,"population":3,"selected":false},"v32304835":{"id":"v32304835","region":"Europe","name":"Europe #15","hostname":"45.76.93.64","port":80,"fallbackPort":8000,"population":13,"selected":false},"v32304838":{"id":"v32304838","region":"Europe","name":"Europe #16","hostname":"95.179.250.100","port":80,"fallbackPort":8000,"population":19,"selected":false},"v32304831":{"id":"v32304831","region":"Europe","name":"Europe #17","hostname":"80.240.19.5","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32304837":{"id":"v32304837","region":"Europe","name":"Europe #18","hostname":"136.244.85.195","port":80,"fallbackPort":8000,"population":16,"selected":false},"v32304832":{"id":"v32304832","region":"Europe","name":"Europe #19","hostname":"95.179.163.97","port":80,"fallbackPort":8000,"population":50,"selected":false},"v32304836":{"id":"v32304836","region":"Europe","name":"Europe #20","hostname":"217.163.29.94","port":80,"fallbackPort":8000,"population":41,"selected":false},"v32304862":{"id":"v32304862","region":"Europe","name":"Europe #21","hostname":"95.179.171.81","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32304864":{"id":"v32304864","region":"Europe","name":"Europe #22","hostname":"104.238.167.218","port":80,"fallbackPort":8000,"population":19,"selected":false},"v32304863":{"id":"v32304863","region":"Europe","name":"Europe #23","hostname":"80.240.19.232","port":80,"fallbackPort":8000,"population":13,"selected":false},"v32304861":{"id":"v32304861","region":"Europe","name":"Europe #24","hostname":"95.179.161.217","port":80,"fallbackPort":8000,"population":16,"selected":false},"v32304860":{"id":"v32304860","region":"Europe","name":"Europe #25","hostname":"136.244.87.214","port":80,"fallbackPort":8000,"population":9,"selected":false},"v32304859":{"id":"v32304859","region":"Europe","name":"Europe #26","hostname":"95.179.247.135","port":80,"fallbackPort":8000,"population":9,"selected":false},"v32304858":{"id":"v32304858","region":"Europe","name":"Europe #27","hostname":"95.179.254.241","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32304857":{"id":"v32304857","region":"Europe","name":"Europe #28","hostname":"209.250.239.29","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32304856":{"id":"v32304856","region":"Europe","name":"Europe #29","hostname":"45.77.67.19","port":80,"fallbackPort":8000,"population":31,"selected":false},"v32304865":{"id":"v32304865","region":"Europe","name":"Europe #30","hostname":"95.179.254.47","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32304881":{"id":"v32304881","region":"Europe","name":"Europe #31","hostname":"80.240.31.7","port":80,"fallbackPort":8000,"population":81,"selected":false},"v32304880":{"id":"v32304880","region":"Europe","name":"Europe #32","hostname":"209.250.235.17","port":80,"fallbackPort":8000,"population":88,"selected":false},"v32306496":{"id":"v32306496","region":"Asia","name":"Asia #1","hostname":"66.42.52.118","port":80,"fallbackPort":8000,"population":84,"selected":false},"v32306497":{"id":"v32306497","region":"Asia","name":"Asia #2","hostname":"149.28.146.87","port":80,"fallbackPort":8000,"population":84,"selected":false},"v32306501":{"id":"v32306501","region":"Asia","name":"Asia #3","hostname":"139.180.223.121","port":80,"fallbackPort":8000,"population":84,"selected":false},"v32306492":{"id":"v32306492","region":"Asia","name":"Asia #4","hostname":"45.77.249.75","port":80,"fallbackPort":8000,"population":81,"selected":false},"v32306495":{"id":"v32306495","region":"Asia","name":"Asia #5","hostname":"139.180.136.217","port":80,"fallbackPort":8000,"population":28,"selected":false},"v32306494":{"id":"v32306494","region":"Asia","name":"Asia #6","hostname":"45.77.248.180","port":80,"fallbackPort":8000,"population":84,"selected":false},"v32306498":{"id":"v32306498","region":"Asia","name":"Asia #7","hostname":"149.28.159.30","port":80,"fallbackPort":8000,"population":16,"selected":false},"v32306499":{"id":"v32306499","region":"Asia","name":"Asia #8","hostname":"139.180.145.201","port":80,"fallbackPort":8000,"population":13,"selected":false},"v32306500":{"id":"v32306500","region":"Asia","name":"Asia #9","hostname":"149.28.137.110","port":80,"fallbackPort":8000,"population":81,"selected":false},"v32306493":{"id":"v32306493","region":"Asia","name":"Asia #10","hostname":"45.77.44.176","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306505":{"id":"v32306505","region":"Asia","name":"Asia #11","hostname":"45.32.101.243","port":80,"fallbackPort":8000,"population":88,"selected":false},"v32306507":{"id":"v32306507","region":"Asia","name":"Asia #12","hostname":"45.32.108.16","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32306506":{"id":"v32306506","region":"Asia","name":"Asia #13","hostname":"207.148.75.184","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306510":{"id":"v32306510","region":"Asia","name":"Asia #14","hostname":"45.77.255.214","port":80,"fallbackPort":8000,"population":91,"selected":false},"v32306509":{"id":"v32306509","region":"Asia","name":"Asia #15","hostname":"149.28.153.185","port":80,"fallbackPort":8000,"population":78,"selected":false},"v32306508":{"id":"v32306508","region":"Asia","name":"Asia #16","hostname":"149.28.138.65","port":80,"fallbackPort":8000,"population":31,"selected":false},"v32306672":{"id":"v32306672","region":"Australia","name":"Australia #1","hostname":"149.28.170.123","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306669":{"id":"v32306669","region":"Australia","name":"Australia #2","hostname":"149.28.182.161","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306674":{"id":"v32306674","region":"Australia","name":"Australia #3","hostname":"149.28.171.21","port":80,"fallbackPort":8000,"population":19,"selected":false},"v32306678":{"id":"v32306678","region":"Australia","name":"Australia #4","hostname":"139.180.162.199","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306675":{"id":"v32306675","region":"Australia","name":"Australia #5","hostname":"45.76.127.253","port":80,"fallbackPort":8000,"population":3,"selected":false},"v32306670":{"id":"v32306670","region":"Australia","name":"Australia #6","hostname":"149.28.165.199","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306676":{"id":"v32306676","region":"Australia","name":"Australia #7","hostname":"139.180.169.4","port":80,"fallbackPort":8000,"population":44,"selected":false},"v32306671":{"id":"v32306671","region":"Australia","name":"Australia #8","hostname":"207.148.86.209","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306677":{"id":"v32306677","region":"Australia","name":"Australia #9","hostname":"207.148.83.127","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306673":{"id":"v32306673","region":"Australia","name":"Australia #10","hostname":"139.180.169.5","port":80,"fallbackPort":8000,"population":19,"selected":false},"v32306697":{"id":"v32306697","region":"Australia","name":"Australia #11","hostname":"45.76.116.167","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32306696":{"id":"v32306696","region":"Australia","name":"Australia #12","hostname":"45.32.242.50","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306698":{"id":"v32306698","region":"Australia","name":"Australia #13","hostname":"108.61.212.126","port":80,"fallbackPort":8000,"population":16,"selected":false},"v32306695":{"id":"v32306695","region":"Australia","name":"Australia #14","hostname":"149.28.188.190","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32306693":{"id":"v32306693","region":"Australia","name":"Australia #15","hostname":"139.180.163.6","port":80,"fallbackPort":8000,"population":3,"selected":false},"v32305897":{"id":"v32305897","region":"South America","name":"South America #1","hostname":"144.202.46.64","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32305900":{"id":"v32305900","region":"South America","name":"South America #2","hostname":"207.246.72.106","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32305898":{"id":"v32305898","region":"South America","name":"South America #3","hostname":"45.32.169.17","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32305895":{"id":"v32305895","region":"South America","name":"South America #4","hostname":"149.28.99.116","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32305903":{"id":"v32305903","region":"South America","name":"South America #5","hostname":"45.32.162.39","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32305894":{"id":"v32305894","region":"South America","name":"South America #6","hostname":"45.32.175.4","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32305902":{"id":"v32305902","region":"South America","name":"South America #7","hostname":"104.207.147.188","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32305899":{"id":"v32305899","region":"South America","name":"South America #8","hostname":"149.28.97.132","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32305901":{"id":"v32305901","region":"South America","name":"South America #9","hostname":"45.63.111.87","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32305896":{"id":"v32305896","region":"South America","name":"South America #10","hostname":"207.246.72.194","port":80,"fallbackPort":8000,"population":0,"selected":false},"v32305920":{"id":"v32305920","region":"South America","name":"South America #11","hostname":"45.77.166.219","port":80,"fallbackPort":8000,"population":3,"selected":false},"v32305923":{"id":"v32305923","region":"South America","name":"South America #12","hostname":"45.77.196.203","port":80,"fallbackPort":8000,"population":16,"selected":false},"v32305921":{"id":"v32305921","region":"South America","name":"South America #13","hostname":"45.77.193.241","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32305925":{"id":"v32305925","region":"South America","name":"South America #14","hostname":"144.202.35.60","port":80,"fallbackPort":8000,"population":6,"selected":false},"v32305922":{"id":"v32305922","region":"South America","name":"South America #15","hostname":"104.156.244.251","port":80,"fallbackPort":8000,"population":9,"selected":false},"v32305924":{"id":"v32305924","region":"South America","name":"South America #16","hostname":"144.202.34.135","port":80,"fallbackPort":8000,"population":13,"selected":false}},
+            userGroup: 0
+        });
+
+        game.init(function() {
+            game.assetManager.load([{"name":"\/asset\/image\/map\/map-grass.png","url":"\/asset\/image\/map\/map-grass.png"},{"name":"\/asset\/image\/map\/map-stone.svg","url":"\/asset\/image\/map\/map-stone.svg"},{"name":"\/asset\/image\/map\/map-tree.svg","url":"\/asset\/image\/map\/map-tree.svg"},{"name":"\/asset\/image\/misc\/changelog-9july-preview.png","url":"\/asset\/image\/misc\/changelog-9july-preview.png"},{"name":"\/asset\/image\/misc\/discord-icon.png","url":"\/asset\/image\/misc\/discord-icon.png"},{"name":"\/asset\/image\/misc\/facebook-icon.png","url":"\/asset\/image\/misc\/facebook-icon.png"},{"name":"\/asset\/image\/misc\/twitter-card.png","url":"\/asset\/image\/misc\/twitter-card.png"},{"name":"\/asset\/image\/misc\/twitter-icon.png","url":"\/asset\/image\/misc\/twitter-icon.png"},{"name":"\/asset\/image\/misc\/youtube-icon-btn.png","url":"\/asset\/image\/misc\/youtube-icon-btn.png"},{"name":"\/asset\/image\/misc\/youtube-icon.png","url":"\/asset\/image\/misc\/youtube-icon.png"},{"name":"\/asset\/image\/ui\/ui-time-bar.png","url":"\/asset\/image\/ui\/ui-time-bar.png"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-projectile.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-projectile.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t1-base.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t1-base.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t1-head.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t1-head.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t2-base.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t2-base.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t2-head.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t2-head.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t3-base.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t3-base.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t3-head.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t3-head.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t4-base.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t4-base.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t4-head.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t4-head.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t5-base.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t5-base.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t5-head.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t5-head.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t6-base.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t6-base.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t6-head.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t6-head.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t7-base.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t7-base.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t7-head.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t7-head.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t8-base.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t8-base.svg"},{"name":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t8-head.svg","url":"\/asset\/image\/entity\/arrow-tower\/arrow-tower-t8-head.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-projectile.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-projectile.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t1-base.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t1-base.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t1-head.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t1-head.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t2-base.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t2-base.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t2-head.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t2-head.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t3-base.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t3-base.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t3-head.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t3-head.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t4-base.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t4-base.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t4-head.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t4-head.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t5-base.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t5-base.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t5-head.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t5-head.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t6-base.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t6-base.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t6-head.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t6-head.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t7-base.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t7-base.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t7-head.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t7-head.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t8-base.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t8-base.svg"},{"name":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t8-head.svg","url":"\/asset\/image\/entity\/bomb-tower\/bomb-tower-t8-head.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-projectile.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-projectile.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t1-base.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t1-base.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t1-head.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t1-head.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t2-base.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t2-base.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t2-head.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t2-head.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t3-base.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t3-base.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t3-head.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t3-head.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t4-base.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t4-base.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t4-head.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t4-head.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t5-base.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t5-base.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t5-head.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t5-head.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t6-base.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t6-base.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t6-head.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t6-head.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t7-base.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t7-base.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t7-head.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t7-head.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t8-base.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t8-base.svg"},{"name":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t8-head.svg","url":"\/asset\/image\/entity\/cannon-tower\/cannon-tower-t8-head.svg"},{"name":"\/asset\/image\/entity\/door\/door-t1-base.svg","url":"\/asset\/image\/entity\/door\/door-t1-base.svg"},{"name":"\/asset\/image\/entity\/door\/door-t2-base.svg","url":"\/asset\/image\/entity\/door\/door-t2-base.svg"},{"name":"\/asset\/image\/entity\/door\/door-t3-base.svg","url":"\/asset\/image\/entity\/door\/door-t3-base.svg"},{"name":"\/asset\/image\/entity\/door\/door-t4-base.svg","url":"\/asset\/image\/entity\/door\/door-t4-base.svg"},{"name":"\/asset\/image\/entity\/door\/door-t5-base.svg","url":"\/asset\/image\/entity\/door\/door-t5-base.svg"},{"name":"\/asset\/image\/entity\/door\/door-t6-base.svg","url":"\/asset\/image\/entity\/door\/door-t6-base.svg"},{"name":"\/asset\/image\/entity\/door\/door-t7-base.svg","url":"\/asset\/image\/entity\/door\/door-t7-base.svg"},{"name":"\/asset\/image\/entity\/door\/door-t8-base.svg","url":"\/asset\/image\/entity\/door\/door-t8-base.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t1-base.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t1-base.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t1-head.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t1-head.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t2-base.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t2-base.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t2-head.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t2-head.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t3-base.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t3-base.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t3-head.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t3-head.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t4-base.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t4-base.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t4-head.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t4-head.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t5-base.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t5-base.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t5-head.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t5-head.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t6-base.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t6-base.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t6-head.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t6-head.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t7-base.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t7-base.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t7-head.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t7-head.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t8-base.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t8-base.svg"},{"name":"\/asset\/image\/entity\/gold-mine\/gold-mine-t8-head.svg","url":"\/asset\/image\/entity\/gold-mine\/gold-mine-t8-head.svg"},{"name":"\/asset\/image\/entity\/gold-stash\/gold-stash-t1-base.svg","url":"\/asset\/image\/entity\/gold-stash\/gold-stash-t1-base.svg"},{"name":"\/asset\/image\/entity\/gold-stash\/gold-stash-t2-base.svg","url":"\/asset\/image\/entity\/gold-stash\/gold-stash-t2-base.svg"},{"name":"\/asset\/image\/entity\/gold-stash\/gold-stash-t3-base.svg","url":"\/asset\/image\/entity\/gold-stash\/gold-stash-t3-base.svg"},{"name":"\/asset\/image\/entity\/gold-stash\/gold-stash-t4-base.svg","url":"\/asset\/image\/entity\/gold-stash\/gold-stash-t4-base.svg"},{"name":"\/asset\/image\/entity\/gold-stash\/gold-stash-t5-base.svg","url":"\/asset\/image\/entity\/gold-stash\/gold-stash-t5-base.svg"},{"name":"\/asset\/image\/entity\/gold-stash\/gold-stash-t6-base.svg","url":"\/asset\/image\/entity\/gold-stash\/gold-stash-t6-base.svg"},{"name":"\/asset\/image\/entity\/gold-stash\/gold-stash-t7-base.svg","url":"\/asset\/image\/entity\/gold-stash\/gold-stash-t7-base.svg"},{"name":"\/asset\/image\/entity\/gold-stash\/gold-stash-t8-base.svg","url":"\/asset\/image\/entity\/gold-stash\/gold-stash-t8-base.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t1-base.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t1-base.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t1-claw.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t1-claw.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t1-head.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t1-head.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t2-base.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t2-base.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t2-claw.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t2-claw.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t2-head.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t2-head.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t3-base.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t3-base.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t3-claw.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t3-claw.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t3-head.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t3-head.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t4-base.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t4-base.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t4-claw.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t4-claw.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t4-head.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t4-head.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t5-base.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t5-base.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t5-claw.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t5-claw.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t5-head.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t5-head.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t6-base.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t6-base.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t6-claw.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t6-claw.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t6-head.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t6-head.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t7-base.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t7-base.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t7-claw.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t7-claw.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t7-head.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t7-head.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t8-base.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t8-base.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t8-claw.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t8-claw.svg"},{"name":"\/asset\/image\/entity\/harvester\/harvester-t8-head.svg","url":"\/asset\/image\/entity\/harvester\/harvester-t8-head.svg"},{"name":"\/asset\/image\/entity\/hat-horns\/hat-horns-base.svg","url":"\/asset\/image\/entity\/hat-horns\/hat-horns-base.svg"},{"name":"\/asset\/image\/entity\/heal-towers-spell\/heal-towers-spell-particle.svg","url":"\/asset\/image\/entity\/heal-towers-spell\/heal-towers-spell-particle.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-projectile.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-projectile.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t1-base.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t1-base.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t1-head.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t1-head.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t2-base.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t2-base.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t2-head.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t2-head.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t3-base.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t3-base.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t3-head.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t3-head.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t4-base.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t4-base.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t4-head.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t4-head.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t5-base.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t5-base.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t5-head.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t5-head.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t6-base.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t6-base.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t6-head.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t6-head.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t7-base.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t7-base.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t7-head.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t7-head.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t8-base.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t8-base.svg"},{"name":"\/asset\/image\/entity\/mage-tower\/mage-tower-t8-head.svg","url":"\/asset\/image\/entity\/mage-tower\/mage-tower-t8-head.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t1-base.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t1-base.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t1-head.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t1-head.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t1-middle.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t1-middle.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t2-base.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t2-base.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t2-head.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t2-head.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t2-middle.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t2-middle.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t3-base.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t3-base.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t3-head.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t3-head.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t3-middle.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t3-middle.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t4-base.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t4-base.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t4-head.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t4-head.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t4-middle.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t4-middle.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t5-base.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t5-base.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t5-head.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t5-head.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t5-middle.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t5-middle.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t6-base.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t6-base.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t6-head.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t6-head.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t6-middle.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t6-middle.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t7-base.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t7-base.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t7-head.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t7-head.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t7-middle.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t7-middle.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t8-base.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t8-base.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t8-head.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t8-head.svg"},{"name":"\/asset\/image\/entity\/melee-tower\/melee-tower-t8-middle.svg","url":"\/asset\/image\/entity\/melee-tower\/melee-tower-t8-middle.svg"},{"name":"\/asset\/image\/entity\/neutral\/neutral-t1-base.svg","url":"\/asset\/image\/entity\/neutral\/neutral-t1-base.svg"},{"name":"\/asset\/image\/entity\/neutral\/neutral-t1-weapon.svg","url":"\/asset\/image\/entity\/neutral\/neutral-t1-weapon.svg"},{"name":"\/asset\/image\/entity\/neutral-camp\/neutral-camp-base.svg","url":"\/asset\/image\/entity\/neutral-camp\/neutral-camp-base.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t1-base.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t1-base.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t1-weapon.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t1-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t2-base.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t2-base.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t2-weapon.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t2-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t3-base.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t3-base.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t3-weapon.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t3-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t4-base.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t4-base.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t4-weapon.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t4-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t5-base.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t5-base.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t5-weapon.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t5-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t6-base.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t6-base.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t6-weapon.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t6-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t7-base.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t7-base.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t7-weapon.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t7-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t8-base.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t8-base.svg"},{"name":"\/asset\/image\/entity\/pet-carl\/pet-carl-t8-weapon.svg","url":"\/asset\/image\/entity\/pet-carl\/pet-carl-t8-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-ghost\/pet-ghost-projectile.svg","url":"\/asset\/image\/entity\/pet-ghost\/pet-ghost-projectile.svg"},{"name":"\/asset\/image\/entity\/pet-ghost\/pet-ghost-t1-base.svg","url":"\/asset\/image\/entity\/pet-ghost\/pet-ghost-t1-base.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t1-base.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t1-base.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t1-weapon.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t1-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t2-base.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t2-base.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t2-weapon.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t2-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t3-base.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t3-base.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t3-weapon.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t3-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t4-base.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t4-base.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t4-weapon.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t4-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t5-base.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t5-base.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t5-weapon.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t5-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t6-base.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t6-base.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t6-weapon.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t6-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t7-base.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t7-base.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t7-weapon.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t7-weapon.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t8-base.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t8-base.svg"},{"name":"\/asset\/image\/entity\/pet-miner\/pet-miner-t8-weapon.svg","url":"\/asset\/image\/entity\/pet-miner\/pet-miner-t8-weapon.svg"},{"name":"\/asset\/image\/entity\/slow-trap\/slow-trap-t1-base.svg","url":"\/asset\/image\/entity\/slow-trap\/slow-trap-t1-base.svg"},{"name":"\/asset\/image\/entity\/slow-trap\/slow-trap-t2-base.svg","url":"\/asset\/image\/entity\/slow-trap\/slow-trap-t2-base.svg"},{"name":"\/asset\/image\/entity\/slow-trap\/slow-trap-t3-base.svg","url":"\/asset\/image\/entity\/slow-trap\/slow-trap-t3-base.svg"},{"name":"\/asset\/image\/entity\/slow-trap\/slow-trap-t4-base.svg","url":"\/asset\/image\/entity\/slow-trap\/slow-trap-t4-base.svg"},{"name":"\/asset\/image\/entity\/slow-trap\/slow-trap-t5-base.svg","url":"\/asset\/image\/entity\/slow-trap\/slow-trap-t5-base.svg"},{"name":"\/asset\/image\/entity\/slow-trap\/slow-trap-t6-base.svg","url":"\/asset\/image\/entity\/slow-trap\/slow-trap-t6-base.svg"},{"name":"\/asset\/image\/entity\/slow-trap\/slow-trap-t7-base.svg","url":"\/asset\/image\/entity\/slow-trap\/slow-trap-t7-base.svg"},{"name":"\/asset\/image\/entity\/slow-trap\/slow-trap-t8-base.svg","url":"\/asset\/image\/entity\/slow-trap\/slow-trap-t8-base.svg"},{"name":"\/asset\/image\/entity\/player\/player-base.svg","url":"\/asset\/image\/entity\/player\/player-base.svg"},{"name":"\/asset\/image\/entity\/player\/player-bomb-hands.svg","url":"\/asset\/image\/entity\/player\/player-bomb-hands.svg"},{"name":"\/asset\/image\/entity\/player\/player-bomb-t1.svg","url":"\/asset\/image\/entity\/player\/player-bomb-t1.svg"},{"name":"\/asset\/image\/entity\/player\/player-bomb-t2.svg","url":"\/asset\/image\/entity\/player\/player-bomb-t2.svg"},{"name":"\/asset\/image\/entity\/player\/player-bomb-t3.svg","url":"\/asset\/image\/entity\/player\/player-bomb-t3.svg"},{"name":"\/asset\/image\/entity\/player\/player-bomb-t4.svg","url":"\/asset\/image\/entity\/player\/player-bomb-t4.svg"},{"name":"\/asset\/image\/entity\/player\/player-bomb-t5.svg","url":"\/asset\/image\/entity\/player\/player-bomb-t5.svg"},{"name":"\/asset\/image\/entity\/player\/player-bomb-t6.svg","url":"\/asset\/image\/entity\/player\/player-bomb-t6.svg"},{"name":"\/asset\/image\/entity\/player\/player-bomb-t7.svg","url":"\/asset\/image\/entity\/player\/player-bomb-t7.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t1-hands.svg","url":"\/asset\/image\/entity\/player\/player-bow-t1-hands.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t1.svg","url":"\/asset\/image\/entity\/player\/player-bow-t1.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t2-hands.svg","url":"\/asset\/image\/entity\/player\/player-bow-t2-hands.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t2.svg","url":"\/asset\/image\/entity\/player\/player-bow-t2.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t3-hands.svg","url":"\/asset\/image\/entity\/player\/player-bow-t3-hands.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t3.svg","url":"\/asset\/image\/entity\/player\/player-bow-t3.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t4-hands.svg","url":"\/asset\/image\/entity\/player\/player-bow-t4-hands.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t4.svg","url":"\/asset\/image\/entity\/player\/player-bow-t4.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t5-hands.svg","url":"\/asset\/image\/entity\/player\/player-bow-t5-hands.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t5.svg","url":"\/asset\/image\/entity\/player\/player-bow-t5.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t6-hands.svg","url":"\/asset\/image\/entity\/player\/player-bow-t6-hands.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t6.svg","url":"\/asset\/image\/entity\/player\/player-bow-t6.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t7-hands.svg","url":"\/asset\/image\/entity\/player\/player-bow-t7-hands.svg"},{"name":"\/asset\/image\/entity\/player\/player-bow-t7.svg","url":"\/asset\/image\/entity\/player\/player-bow-t7.svg"},{"name":"\/asset\/image\/entity\/player\/player-pickaxe-t1.svg","url":"\/asset\/image\/entity\/player\/player-pickaxe-t1.svg"},{"name":"\/asset\/image\/entity\/player\/player-pickaxe-t2.svg","url":"\/asset\/image\/entity\/player\/player-pickaxe-t2.svg"},{"name":"\/asset\/image\/entity\/player\/player-pickaxe-t3.svg","url":"\/asset\/image\/entity\/player\/player-pickaxe-t3.svg"},{"name":"\/asset\/image\/entity\/player\/player-pickaxe-t4.svg","url":"\/asset\/image\/entity\/player\/player-pickaxe-t4.svg"},{"name":"\/asset\/image\/entity\/player\/player-pickaxe-t5.svg","url":"\/asset\/image\/entity\/player\/player-pickaxe-t5.svg"},{"name":"\/asset\/image\/entity\/player\/player-pickaxe-t6.svg","url":"\/asset\/image\/entity\/player\/player-pickaxe-t6.svg"},{"name":"\/asset\/image\/entity\/player\/player-pickaxe-t7.svg","url":"\/asset\/image\/entity\/player\/player-pickaxe-t7.svg"},{"name":"\/asset\/image\/entity\/player\/player-spear-t1.svg","url":"\/asset\/image\/entity\/player\/player-spear-t1.svg"},{"name":"\/asset\/image\/entity\/player\/player-spear-t2.svg","url":"\/asset\/image\/entity\/player\/player-spear-t2.svg"},{"name":"\/asset\/image\/entity\/player\/player-spear-t3.svg","url":"\/asset\/image\/entity\/player\/player-spear-t3.svg"},{"name":"\/asset\/image\/entity\/player\/player-spear-t4.svg","url":"\/asset\/image\/entity\/player\/player-spear-t4.svg"},{"name":"\/asset\/image\/entity\/player\/player-spear-t5.svg","url":"\/asset\/image\/entity\/player\/player-spear-t5.svg"},{"name":"\/asset\/image\/entity\/player\/player-spear-t6.svg","url":"\/asset\/image\/entity\/player\/player-spear-t6.svg"},{"name":"\/asset\/image\/entity\/player\/player-spear-t7.svg","url":"\/asset\/image\/entity\/player\/player-spear-t7.svg"},{"name":"\/asset\/image\/entity\/wall\/wall-t1-base.svg","url":"\/asset\/image\/entity\/wall\/wall-t1-base.svg"},{"name":"\/asset\/image\/entity\/wall\/wall-t2-base.svg","url":"\/asset\/image\/entity\/wall\/wall-t2-base.svg"},{"name":"\/asset\/image\/entity\/wall\/wall-t3-base.svg","url":"\/asset\/image\/entity\/wall\/wall-t3-base.svg"},{"name":"\/asset\/image\/entity\/wall\/wall-t4-base.svg","url":"\/asset\/image\/entity\/wall\/wall-t4-base.svg"},{"name":"\/asset\/image\/entity\/wall\/wall-t5-base.svg","url":"\/asset\/image\/entity\/wall\/wall-t5-base.svg"},{"name":"\/asset\/image\/entity\/wall\/wall-t6-base.svg","url":"\/asset\/image\/entity\/wall\/wall-t6-base.svg"},{"name":"\/asset\/image\/entity\/wall\/wall-t7-base.svg","url":"\/asset\/image\/entity\/wall\/wall-t7-base.svg"},{"name":"\/asset\/image\/entity\/wall\/wall-t8-base.svg","url":"\/asset\/image\/entity\/wall\/wall-t8-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t1-base.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t1-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t1-weapon.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t1-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t10-base.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t10-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t10-weapon.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t10-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t2-base.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t2-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t2-weapon.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t2-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t3-base.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t3-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t3-weapon.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t3-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t4-base.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t4-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t4-weapon.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t4-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t5-base.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t5-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t5-weapon.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t5-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t6-base.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t6-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t6-weapon.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t6-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t7-base.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t7-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t7-weapon.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t7-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t8-base.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t8-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t8-weapon.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t8-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t9-base.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t9-base.svg"},{"name":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t9-weapon.svg","url":"\/asset\/image\/entity\/zombie-blue\/zombie-blue-t9-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-boss\/zombie-boss-t1-base.svg","url":"\/asset\/image\/entity\/zombie-boss\/zombie-boss-t1-base.svg"},{"name":"\/asset\/image\/entity\/zombie-boss\/zombie-boss-t1-weapon.svg","url":"\/asset\/image\/entity\/zombie-boss\/zombie-boss-t1-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t1-base.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t1-base.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t1-weapon.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t1-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t10-base.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t10-base.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t10-weapon.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t10-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t2-base.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t2-base.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t2-weapon.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t2-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t3-base.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t3-base.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t3-weapon.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t3-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t4-base.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t4-base.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t4-weapon.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t4-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t5-base.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t5-base.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t5-weapon.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t5-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t6-base.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t6-base.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t6-weapon.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t6-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t7-base.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t7-base.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t7-weapon.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t7-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t8-base.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t8-base.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t8-weapon.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t8-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t9-base.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t9-base.svg"},{"name":"\/asset\/image\/entity\/zombie-green\/zombie-green-t9-weapon.svg","url":"\/asset\/image\/entity\/zombie-green\/zombie-green-t9-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t1-base.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t1-base.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t1-weapon.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t1-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t10-base.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t10-base.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t10-weapon.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t10-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t2-base.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t2-base.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t2-weapon.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t2-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t3-base.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t3-base.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t3-weapon.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t3-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t4-base.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t4-base.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t4-weapon.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t4-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t5-base.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t5-base.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t5-weapon.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t5-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t6-base.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t6-base.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t6-weapon.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t6-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t7-base.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t7-base.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t7-weapon.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t7-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t8-base.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t8-base.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t8-weapon.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t8-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t9-base.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t9-base.svg"},{"name":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t9-weapon.svg","url":"\/asset\/image\/entity\/zombie-orange\/zombie-orange-t9-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t1-base.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t1-base.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t1-weapon.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t1-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t10-base.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t10-base.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t10-weapon.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t10-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t2-base.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t2-base.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t2-weapon.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t2-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t3-base.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t3-base.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t3-weapon.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t3-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t4-base.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t4-base.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t4-weapon.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t4-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t5-base.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t5-base.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t5-weapon.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t5-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t6-base.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t6-base.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t6-weapon.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t6-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t7-base.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t7-base.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t7-weapon.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t7-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t8-base.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t8-base.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t8-weapon.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t8-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t9-base.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t9-base.svg"},{"name":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t9-weapon.svg","url":"\/asset\/image\/entity\/zombie-purple\/zombie-purple-t9-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-ranged-green\/zombie-ranged-green-t1-base.svg","url":"\/asset\/image\/entity\/zombie-ranged-green\/zombie-ranged-green-t1-base.svg"},{"name":"\/asset\/image\/entity\/zombie-ranged-green\/zombie-ranged-green-t1-bow-hands.svg","url":"\/asset\/image\/entity\/zombie-ranged-green\/zombie-ranged-green-t1-bow-hands.svg"},{"name":"\/asset\/image\/entity\/zombie-ranged-green\/zombie-ranged-green-t1-bow.svg","url":"\/asset\/image\/entity\/zombie-ranged-green\/zombie-ranged-green-t1-bow.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t1-base.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t1-base.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t1-weapon.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t1-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t10-base.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t10-base.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t10-weapon.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t10-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t2-base.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t2-base.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t2-weapon.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t2-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t3-base.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t3-base.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t3-weapon.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t3-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t4-base.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t4-base.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t4-weapon.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t4-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t5-base.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t5-base.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t5-weapon.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t5-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t6-base.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t6-base.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t6-weapon.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t6-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t7-base.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t7-base.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t7-weapon.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t7-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t8-base.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t8-base.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t8-weapon.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t8-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t9-base.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t9-base.svg"},{"name":"\/asset\/image\/entity\/zombie-red\/zombie-red-t9-weapon.svg","url":"\/asset\/image\/entity\/zombie-red\/zombie-red-t9-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t1-base.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t1-base.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t1-weapon.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t1-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t10-base.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t10-base.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t10-weapon.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t10-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t2-base.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t2-base.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t2-weapon.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t2-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t3-base.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t3-base.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t3-weapon.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t3-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t4-base.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t4-base.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t4-weapon.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t4-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t5-base.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t5-base.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t5-weapon.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t5-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t6-base.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t6-base.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t6-weapon.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t6-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t7-base.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t7-base.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t7-weapon.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t7-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t8-base.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t8-base.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t8-weapon.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t8-weapon.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t9-base.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t9-base.svg"},{"name":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t9-weapon.svg","url":"\/asset\/image\/entity\/zombie-yellow\/zombie-yellow-t9-weapon.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-arrow-tower.svg","url":"\/asset\/image\/ui\/entities\/entities-arrow-tower.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-bomb-tower.svg","url":"\/asset\/image\/ui\/entities\/entities-bomb-tower.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-cannon-tower.svg","url":"\/asset\/image\/ui\/entities\/entities-cannon-tower.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-door.svg","url":"\/asset\/image\/ui\/entities\/entities-door.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-gold-mine.svg","url":"\/asset\/image\/ui\/entities\/entities-gold-mine.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-gold-stash.svg","url":"\/asset\/image\/ui\/entities\/entities-gold-stash.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-harvester.svg","url":"\/asset\/image\/ui\/entities\/entities-harvester.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-mage-tower.svg","url":"\/asset\/image\/ui\/entities\/entities-mage-tower.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-melee-tower.svg","url":"\/asset\/image\/ui\/entities\/entities-melee-tower.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-slow-trap.svg","url":"\/asset\/image\/ui\/entities\/entities-slow-trap.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-stone.svg","url":"\/asset\/image\/ui\/entities\/entities-stone.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-tree.svg","url":"\/asset\/image\/ui\/entities\/entities-tree.svg"},{"name":"\/asset\/image\/ui\/entities\/entities-wall.svg","url":"\/asset\/image\/ui\/entities\/entities-wall.svg"},{"name":"\/asset\/image\/ui\/icons\/icons-party.svg","url":"\/asset\/image\/ui\/icons\/icons-party.svg"},{"name":"\/asset\/image\/ui\/icons\/icons-settings.svg","url":"\/asset\/image\/ui\/icons\/icons-settings.svg"},{"name":"\/asset\/image\/ui\/icons\/icons-shop.svg","url":"\/asset\/image\/ui\/icons\/icons-shop.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bomb-t1.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bomb-t1.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bomb-t2.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bomb-t2.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bomb-t3.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bomb-t3.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bomb-t4.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bomb-t4.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bomb-t5.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bomb-t5.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bomb-t6.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bomb-t6.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bomb-t7.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bomb-t7.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bow-t1.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bow-t1.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bow-t2.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bow-t2.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bow-t3.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bow-t3.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bow-t4.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bow-t4.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bow-t5.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bow-t5.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bow-t6.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bow-t6.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-bow-t7.svg","url":"\/asset\/image\/ui\/inventory\/inventory-bow-t7.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-hat-horns.svg","url":"\/asset\/image\/ui\/inventory\/inventory-hat-horns.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-heal-towers-spell.svg","url":"\/asset\/image\/ui\/inventory\/inventory-heal-towers-spell.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-health-potion.svg","url":"\/asset\/image\/ui\/inventory\/inventory-health-potion.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-invulnerable.svg","url":"\/asset\/image\/ui\/inventory\/inventory-invulnerable.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t1.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t1.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t2.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t2.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t3.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t3.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t4.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t4.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t5.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t5.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t6.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t6.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t7.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t7.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t8.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-carl-t8.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-ghost-t1.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-ghost-t1.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-health-potion.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-health-potion.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t1.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t1.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t2.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t2.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t3.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t3.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t4.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t4.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t5.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t5.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t6.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t6.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t7.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t7.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t8.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pet-miner-t8.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t1.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t1.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t2.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t2.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t3.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t3.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t4.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t4.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t5.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t5.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t6.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t6.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t7.svg","url":"\/asset\/image\/ui\/inventory\/inventory-pickaxe-t7.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-shield-t1.svg","url":"\/asset\/image\/ui\/inventory\/inventory-shield-t1.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-shield-t10.svg","url":"\/asset\/image\/ui\/inventory\/inventory-shield-t10.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-shield-t2.svg","url":"\/asset\/image\/ui\/inventory\/inventory-shield-t2.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-shield-t3.svg","url":"\/asset\/image\/ui\/inventory\/inventory-shield-t3.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-shield-t4.svg","url":"\/asset\/image\/ui\/inventory\/inventory-shield-t4.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-shield-t5.svg","url":"\/asset\/image\/ui\/inventory\/inventory-shield-t5.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-shield-t6.svg","url":"\/asset\/image\/ui\/inventory\/inventory-shield-t6.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-shield-t7.svg","url":"\/asset\/image\/ui\/inventory\/inventory-shield-t7.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-shield-t8.svg","url":"\/asset\/image\/ui\/inventory\/inventory-shield-t8.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-shield-t9.svg","url":"\/asset\/image\/ui\/inventory\/inventory-shield-t9.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-spear-t1.svg","url":"\/asset\/image\/ui\/inventory\/inventory-spear-t1.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-spear-t2.svg","url":"\/asset\/image\/ui\/inventory\/inventory-spear-t2.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-spear-t3.svg","url":"\/asset\/image\/ui\/inventory\/inventory-spear-t3.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-spear-t4.svg","url":"\/asset\/image\/ui\/inventory\/inventory-spear-t4.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-spear-t5.svg","url":"\/asset\/image\/ui\/inventory\/inventory-spear-t5.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-spear-t6.svg","url":"\/asset\/image\/ui\/inventory\/inventory-spear-t6.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-spear-t7.svg","url":"\/asset\/image\/ui\/inventory\/inventory-spear-t7.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-timeout.svg","url":"\/asset\/image\/ui\/inventory\/inventory-timeout.svg"},{"name":"\/asset\/image\/ui\/inventory\/inventory-whistle.svg","url":"\/asset\/image\/ui\/inventory\/inventory-whistle.svg"}]);
+
+            game.debug.init();
+            game.run();
         });
     </script>
-</body>
+                    <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+                ga('create', 'UA-98896988-1', 'auto');
+                ga('send', 'pageview');
+            </script>
+            </body>
 </html>
