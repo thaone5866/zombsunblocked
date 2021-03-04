@@ -5,7 +5,7 @@
   
     <p>zombs.io, you asked for it lol</p> 
   
-    <iframe src="https://zombs.io" 
+    <iframe src="zombs.io" 
                                 height="700" width="800"> 
     </iframe> 
   
